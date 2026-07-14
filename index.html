@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="SkillHour by Viswam Edutech — school learning, Viswam OTT video, Windows and Android apps."
+    />
+    <title>SkillHour by Viswam Edutech</title>
+    <link rel="icon" href="assets/skillhour.jpeg" type="image/jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,700&family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="site-nav">
+      <a class="nav-brand" href="#top" aria-label="SkillHour home">
+        <img src="assets/skillhour.jpeg" alt="" width="36" height="36" />
+        <span>SkillHour</span>
+      </a>
+      <nav aria-label="Page">
+        <a href="#ott">Viswam OTT</a>
+        <a href="#get">Get the app</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <!-- Hero: brand first, one headline, one sentence, CTAs, full-bleed visual -->
+      <section class="hero" id="top" aria-labelledby="hero-brand">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="hero-kicker">Viswam Edutech</p>
+            <h1 id="hero-brand" class="hero-brand">SkillHour</h1>
+            <p class="hero-line">School learning, video lessons, and offline study — in one place.</p>
+            <p class="hero-tag">One hour closer to success everyday</p>
+            <div class="hero-ctas">
+              <a class="btn btn-primary" href="#get">Get Windows app</a>
+              <a
+                class="btn btn-secondary"
+                href="https://play.google.com/store/apps/details?id=com.akhilesh26.viswamlms"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get on Play Store
+              </a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <img
+              class="hero-logo"
+              src="assets/skillhour.jpeg"
+              width="640"
+              height="360"
+              alt="SkillHour — TV, play, and learning mark with tagline"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Viswam OTT: one job -->
+      <section class="section ott" id="ott" aria-labelledby="ott-title">
+        <div class="section-inner">
+          <p class="eyebrow">Inside SkillHour</p>
+          <h2 id="ott-title">Viswam OTT</h2>
+          <p class="lead">
+            Curated video lessons for your school — stream in class or download on the
+            mobile and desktop apps to watch later without the internet.
+          </p>
+          <ul class="ott-points">
+            <li>
+              <strong>Stream</strong>
+              <span>Play Viswam OTT titles on the web, mobile, or Windows desktop.</span>
+            </li>
+            <li>
+              <strong>Download</strong>
+              <span>Save lessons in the apps for offline viewing — like a school library.</span>
+            </li>
+            <li>
+              <strong>School-ready</strong>
+              <span>Access and quotas are managed by your school administrators.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="ott-stage" aria-hidden="true">
+          <div class="ott-screen">
+            <span class="ott-play"></span>
+            <p>Viswam OTT</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Get the app -->
+      <section class="section get" id="get" aria-labelledby="get-title">
+        <div class="section-inner">
+          <p class="eyebrow">Install</p>
+          <h2 id="get-title">Get SkillHour</h2>
+          <p class="lead">
+            Use the Windows installer for desktops, or install the Android app from Google Play.
+          </p>
+
+          <div class="download-row">
+            <a class="download-action" id="desktop-download" href="downloads/1.0.0/SkillHour-Setup-1.0.0.exe">
+              <span class="download-platform">Windows</span>
+              <span class="download-name" id="desktop-name">SkillHour Setup</span>
+              <span class="download-meta" id="desktop-meta">x64 · NSIS installer · v1.0.0</span>
+              <span class="download-cta">Download .exe</span>
+            </a>
+
+            <a
+              class="download-action"
+              href="https://play.google.com/store/apps/details?id=com.akhilesh26.viswamlms"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="download-platform">Android</span>
+              <span class="download-name">Google Play</span>
+              <span class="download-meta">Phone &amp; tablet · SkillHour</span>
+              <span class="download-cta">Open Play Store</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-foot">
+      <p><strong>SkillHour</strong> by Viswam Edutech</p>
+      <p>Powered by Viswam Edutech</p>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

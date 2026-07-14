@@ -1,0 +1,9 @@
+{
+  "productName": "SkillHour",
+  "version": "1.0.0",
+  "architecture": "x64",
+  "fileName": "SkillHour-Setup-1.0.0.exe",
+  "path": "/downloads/1.0.0/SkillHour-Setup-1.0.0.exe",
+  "installerParameters": "/S",
+  "updatedAt": "2026-07-14T12:39:02.883Z"
+}
