@@ -511,6 +511,75 @@ a {
   color: var(--navy);
 }
 
+.site-foot a {
+  color: var(--navy);
+  text-decoration: none;
+}
+
+.site-foot a:hover {
+  text-decoration: underline;
+}
+
+/* ——— Legal pages ——— */
+.legal-page {
+  padding: clamp(2rem, 5vw, 3.5rem) clamp(1rem, 4vw, 2.5rem) 3rem;
+}
+
+.legal-card {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: clamp(1.5rem, 4vw, 2.5rem);
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) + 4px);
+  box-shadow: 0 18px 40px rgba(10, 37, 64, 0.06);
+}
+
+.legal-card h1 {
+  margin: 0.35rem 0 0.5rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.85rem, 4vw, 2.35rem);
+  color: var(--navy);
+  letter-spacing: -0.02em;
+}
+
+.legal-card h2 {
+  margin: 1.75rem 0 0.5rem;
+  font-size: 1.1rem;
+  color: var(--navy);
+}
+
+.legal-card p {
+  margin: 0.65rem 0 0;
+  color: var(--ink);
+}
+
+.legal-card a {
+  color: var(--teal);
+  font-weight: 600;
+}
+
+.legal-updated {
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.legal-back {
+  margin-top: 2rem !important;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+}
+
+.legal-back a {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--orange-deep);
+}
+
+.legal-back a:hover {
+  text-decoration: underline;
+}
+
 /* ——— Motion reduce ——— */
 @media (prefers-reduced-motion: reduce) {
   html {
